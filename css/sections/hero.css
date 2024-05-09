@@ -1,0 +1,43 @@
+.hero {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.hero-overview {
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+}
+
+.hero-overview__image {
+    background: url("../../assets/vago.jpg");
+
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 750px;
+    width: 650px;
+
+    margin-bottom: 20px ;
+    
+
+}
+
+.hero-overview__title{
+    position: absolute;
+
+    font-family: var(--roboto);
+    color: var(--secondary-color);
+    font-weight: 100;
+    font-size: 20px;
+
+    left: 50px;
+}
+
+
+
